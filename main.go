@@ -32,10 +32,10 @@ import (
 const port = "443"
 
 // What SNI to ask for (-servername flag).
-var serverName = "sni-scan-for-research-study.bamsoftware.com"
+var serverName = "rhcloud.com"
 
 // Number of parallel scanners (-maxthreads flag).
-var maxThreads = 1000
+var maxThreads = 10000
 
 // Dial timeout (-timeout flag).
 var timeout time.Duration = 10 * time.Second
